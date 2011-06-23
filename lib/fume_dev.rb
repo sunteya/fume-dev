@@ -1,4 +1,3 @@
-require "i18n_generators"
 require "rails3-generators"
 
 module Fume
