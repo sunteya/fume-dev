@@ -16,5 +16,7 @@ Gem::Specification.new do |s|
   
   s.add_runtime_dependency "i18n_generators", "~> 1.0.2"
   s.add_runtime_dependency "rails3-generators", "~> 0.17.4"
+  s.add_runtime_dependency "itslog", "~> 0.3.2"
+  s.add_runtime_dependency "rspec-rails", "~> 2.6.1"
 
 end

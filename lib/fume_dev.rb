@@ -1,4 +1,5 @@
 require "rails3-generators"
+require "itslog"
 
 module Fume
   module Dev
