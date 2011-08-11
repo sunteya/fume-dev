@@ -14,17 +14,18 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   
   # for development
-  s.add_runtime_dependency "i18n_generators", "~> 1.0.2"
+  s.add_runtime_dependency "i18n_generators", "~> 1.0.3"
   s.add_runtime_dependency "rails3-generators", "~> 0.17.4"
   s.add_runtime_dependency "itslog", "~> 0.3.2"
-  
+  s.add_runtime_dependency "netsign-annotate"
+  s.add_runtime_dependency "unicorn"
   
   # for test
   s.add_runtime_dependency "rspec-rails", "~> 2.6.1"
-  s.add_runtime_dependency "fabrication", "~> 1.0.0"
+  s.add_runtime_dependency "fabrication", "~> 1.0.1"
   s.add_runtime_dependency "ffaker", "~> 1.8.0"
   
   # for deploy
-  s.add_runtime_dependency "capsum", "~> 0.4.1"
+  s.add_runtime_dependency "capsum", "~> 0.4.2"
   
 end
