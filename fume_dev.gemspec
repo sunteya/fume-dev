@@ -28,4 +28,5 @@ Gem::Specification.new do |s|
   # for deploy
   s.add_runtime_dependency "capsum", "~> 0.4.2"
   
+  s.add_development_dependency "version"
 end
