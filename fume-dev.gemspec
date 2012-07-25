@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.version       = File.read(File.expand_path("../VERSION", __FILE__)).chomp
   gem.authors       = ["sunteya"]
   gem.email         = ["sunteya@gmail.com"]
-  gem.description   = %q{collect useful gem and  code for rails development or test environment}
+  gem.description   = %q{collect useful gem and code for rails development or test environment}
   gem.summary       = gem.description
   gem.homepage      = "https://github.com/sunteya/fume-dev"
 
@@ -13,7 +13,6 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
-  
   
   gem.add_runtime_dependency "rails", ">= 3.2.6"
   

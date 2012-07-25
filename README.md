@@ -1,24 +1,14 @@
 # Fume::Dev
 
-TODO: Write a gem description
+collect useful gem and code for rails development or test environment
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'fume-dev'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install fume-dev
-
-## Usage
-
-TODO: Write usage instructions here
+	group :development, :test do
+	  gem 'fume-dev'
+	end
 
 ## Contributing
 
