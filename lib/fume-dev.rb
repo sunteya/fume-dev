@@ -1,10 +1,7 @@
-require "rails3-generators"
-require "itslog"
+require "quiet_assets"
 
-require "fabrication"
-require "ffaker"
-
-require "rspec-rails"
+require "pry-nav"
+require "pry-theme"
 
 module Fume
   module Dev
