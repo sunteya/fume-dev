@@ -16,10 +16,11 @@ Gem::Specification.new do |gem|
   
   gem.add_runtime_dependency "rails", ">= 3.2.6"
   
-  gem.add_runtime_dependency "annotate", "~> 2.5.0.pre2"
+  gem.add_runtime_dependency "annotate", "~> 2.5.0"
   gem.add_runtime_dependency "quiet_assets"
   
   gem.add_runtime_dependency "pry-nav"
+  gem.add_runtime_dependency "pry-rails"
   gem.add_runtime_dependency "pry-theme"
   
   gem.add_runtime_dependency "guard-shell"

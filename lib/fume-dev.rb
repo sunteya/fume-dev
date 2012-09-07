@@ -1,6 +1,7 @@
 require "quiet_assets"
 
 require "pry-nav"
+require "pry-rails"
 require "pry-theme"
 
 module Fume
